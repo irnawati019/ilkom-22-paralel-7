@@ -1,0 +1,3 @@
+Ini adalah file tes untuk Git dan VS Code.
+Kami sedang mempelajari alur Git: pull, stage, commit, dan push.
+
