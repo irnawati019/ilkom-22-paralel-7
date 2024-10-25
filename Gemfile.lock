@@ -1,0 +1,69 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    bigdecimal (3.1.8)
+    faraday (2.12.0)
+      faraday-net_http (>= 2.0, < 3.4)
+      json
+      logger
+    faraday-net_http (3.3.0)
+      net-http
+    hashie (5.0.0)
+    json (2.7.2)
+    jwt (2.9.3)
+      base64
+    logger (1.6.1)
+    multi_xml (0.7.1)
+      bigdecimal (~> 3.1)
+    mustermann (3.0.3)
+      ruby2_keywords (~> 0.0.1)
+    mysql2 (0.5.6)
+    net-http (0.4.1)
+      uri
+    oauth2 (2.0.9)
+      faraday (>= 0.17.3, < 3.0)
+      jwt (>= 1.0, < 3.0)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 4)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    rack (3.1.8)
+    rack-protection (4.0.0)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0, < 4)
+    rack-session (2.0.0)
+      rack (>= 3.0.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    ruby2_keywords (0.0.5)
+    securerandom (0.3.1)
+    sinatra (4.0.0)
+      mustermann (~> 3.0)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.0.0)
+      rack-session (>= 2.0.0, < 3)
+      tilt (~> 2.0)
+    snaky_hash (2.0.1)
+      hashie
+      version_gem (~> 1.1, >= 1.1.1)
+    tilt (2.4.0)
+    uri (0.13.1)
+    version_gem (1.1.4)
+    webrick (1.8.2)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  json
+  jwt
+  mysql2
+  oauth2
+  rackup (~> 2.1)
+  securerandom
+  sinatra
+
+BUNDLED WITH
+   2.5.22
