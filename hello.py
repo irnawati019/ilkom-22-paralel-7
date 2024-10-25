@@ -1,2 +1,1 @@
-msg = "hello word"
-print(msg)
+#program untuk print "Hello World!"print("Hello World!")
