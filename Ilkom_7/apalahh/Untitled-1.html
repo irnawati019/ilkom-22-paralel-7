@@ -1,0 +1,30 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Interaktif UI
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   function showText() {
+            document.getElementById('displayText').classList.remove('hidden');
+        }
+  </script>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+   <h1 class="text-2xl font-bold mb-4">
+    Aplikasi Interaktif
+   </h1>
+   <img alt="Placeholder Image" class="mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/GuKTfkQjIDVfX0COrCE9CFkDTof1xDe4ImkuJ0w0WYetvYocC.jpg" width="100"/>
+   <button class="bg-blue-500 text-white px-4 py-2 rounded" onclick="showText()">
+    Tampilkan Teks
+   </button>
+   <p class="hidden mt-4 text-lg text-gray-700" id="displayText">
+    Halo vina!
+   </p>
+  </div>
+ </body>
+</html>
